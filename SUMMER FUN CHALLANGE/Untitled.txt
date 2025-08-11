@@ -1,0 +1,34 @@
+/*Traffic Light
+Be a traffic light controller! Ask the user for a color (like “red” or “green”) and
+save it in a box. If it’s “green,” say, “Go!” If it’s “red,” say, “Stop!” If it’s “yellow,”
+say, “Wait!” Use choices to pick the right message.*/
+
+function trafficLight(colour){
+
+	if ( color1  === trafficMessage){
+		return “Go!”.	
+	}
+	 if (color2 === trafficMessage){
+	 	return “Stop”.
+	 }
+	 if (color2 === trafficMessage){}
+		return “Wait”.
+
+
+
+
+}
+
+
+const prompt = require('prompt-sync')();
+const trafficMessage = prompt('Enter your Colour: ');
+let message = ["red,"  "green," "yellow,"]
+let result = trafficLight(message);
+console.log(result);
+
+
+
+
+
+
+
